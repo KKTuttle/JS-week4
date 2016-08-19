@@ -1,0 +1,15 @@
+<div class="container">
+  <h2> Question=>{{question.content}}</h2>
+
+  <h4>Notes: {{question.notes}}</h4>
+
+  <h3>Answers: </h3>
+  <ul>
+    {{#each question.answers as |answer|}}
+    <li>{{#link-to 'answer' answer.id}}{{answer.answerContent}}{{/link-to}}</li>
+    {{/each}}
+  </ul>
+
+  <br>
+  <button {{action 'destroyQuestion' question}}>Delete Question!</button>
+</div>

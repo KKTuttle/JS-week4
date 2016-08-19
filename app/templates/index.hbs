@@ -1,21 +1,16 @@
-<h2>Katie's message board</h2>
+<div class="container">
+  <h1>QUESTIONS</h1>
+  <ul>
+    {{#each model.questions as |question|}}
+    <li>{{#link-to 'question' question.id}}{{question.content}}{{/link-to}} by {{question.author}}</li>
+    {{/each}}
+  </ul>
+  {{new-question saveQuestion='saveQuestion'}}
 
-<ul>
-  {{#each model.answers as |answer|}}
-    {{answer-tile answer=answer}}
-    <hr>
-  {{/each}}
-</ul>
-
-{{new-answer save2='save3'}}
-
-
-<h1>QUESTIONS</h1>
-<ul>
-  {{#each model.questions as |question|}}
-    {{question.content}}
-    {{question.author}}
-    {{question.notes}}
-    <hr>
-  {{/each}}
-</ul>
+  <h3>All answers</h3>
+  <ul>
+    {{#each model.answers as |answer|}}
+      {{answer-tile answer=answer}}
+    {{/each}}
+  </ul>
+</div>

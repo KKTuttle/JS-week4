@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   addNewAnswer: false,
   actions: {
     answerFormShow() {
-      this.set('addNewAnswer', true)
+      this.set('addNewAnswer', true);
     },
     save1() {
       var params = {
