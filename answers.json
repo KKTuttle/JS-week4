@@ -1,15 +1,15 @@
 {
   "answers": [{
     "question":"What 2+2 equals?",
-    "answer": "it's 4",
+    "answerContent": "it's 4",
     "author": "Julia"
   }, {
     "question":"What's your name?",
-    "answer": "My name is Katarina",
+    "answerContent": "My name is Katarina",
     "author": "Katie"
   }, {
     "question":"Favorite color?",
-    "answer": "Green",
+    "answerContent": "Green",
     "author": "Mason"
   }]
 }
