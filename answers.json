@@ -1,0 +1,15 @@
+{
+  "answers": [{
+    "question":"What 2+2 equals?",
+    "answer": "it's 4",
+    "author": "Julia"
+  }, {
+    "question":"What's your name?",
+    "answer": "My name is Katarina",
+    "author": "Katie"
+  }, {
+    "question":"Favorite color?",
+    "answer": "Green",
+    "author": "Mason"
+  }]
+}

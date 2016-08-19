@@ -1,0 +1,7 @@
+<h2>Katie's message board</h2>
+
+<ul>
+  {{#each model as |answer|}}
+    {{answer-tile answer=answer destroyAnswer='destroyAnswer'}}
+  {{/each}}
+</ul>
