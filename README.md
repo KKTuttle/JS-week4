@@ -1,7 +1,34 @@
-# Message-board
+#  Ember JS Apps Independent Project: Mes_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _Message Board, August 19th, 2016_
+
+## Description
+
+_This web application allows user to display a question on the board and see answers of other users._
+
+## User Stories
+
+* Questions have the content of the question itself, an author and additional notes.
+* Answers have the content of the answer and the author.
+* Includes a header that appears on all pages containing the name of the site and a link to the home page.
+* Lists all questions on the homepage, with only the question and the name of the author showing.
+* Users are able to click on a question to view additional information.
+* Allows users to add and edit questions.
+* Allow users to add answers to a question.
+* Answers are added and viewed on the same page as the question they respond to.
+
+## Project Objectives
+
+* Application template contains header with link(s).
+* Data is stored in and retrieved from Ember Data models and Firebase.
+* Components are used to create display and behavior for your templates.
+* One-to-many relationship exists between Question and Answers.
+* Application works as expected.
+* Project is in a polished, portfolio-quality state.
+* Able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology.
+
+## Known Bugs
+_none_
 
 ## Prerequisites
 
@@ -51,3 +78,28 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## Support and contact details
+
+_Contact by email: katka.karolcikova@gmail.com_
+* Github: kktuttle
+* https://github.com/KKTuttle/JS-week3
+
+## Technologies Used
+
+* HTML
+* CSS
+* Javascript
+* Bower
+* Ember
+
+### License
+
+*MIT License*
+
+Copyright (c) 2016 **_Katarina Tuttle_**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
