@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container lighter">
   <h1>QUESTIONS</h1>
   <ul>
     {{#each model.questions as |question|}}
@@ -6,8 +6,8 @@
     {{/each}}
   </ul>
   {{new-question saveQuestion='saveQuestion'}}
-
-  <h3>All answers</h3>
+<hr>
+  <h3>ALL ANSWERS</h3>
   <ul>
     {{#each model.answers as |answer|}}
       {{answer-tile answer=answer}}

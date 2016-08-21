@@ -1,5 +1,5 @@
 <div class="container">
-  <h2> Question <:>  {{question.content}}</h2>
+  <h2> Question: "{{question.content}}"</h2>
 
   <h4>Notes: {{question.notes}}</h4>
 
@@ -11,5 +11,5 @@
   </ul>
 
   <br>
-  <button {{action 'destroyQuestion' question}}>Delete Question!</button>
+  <button class='delete-button'{{action 'destroyQuestion' question}}>Delete Question!</button>
 </div>

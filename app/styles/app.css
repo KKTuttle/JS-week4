@@ -1,0 +1,46 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+body {
+  background-color: rgba(251, 255, 185, 1);
+  color: black;
+  font-size: 23px;
+  z-index: 1;
+  text-align: justify;
+  font-family: 'Baloo Bhaina', cursive;
+}
+.jumbotron {
+  background-color: rgba(236, 115, 87, 0.6);
+  border: 2px solid rgb(117, 79, 68);
+}
+.container-top {
+  border-radius: 15px 50px;
+}
+.navbar-right {
+  padding-right: 20px;
+}
+.navbar-default {
+  background-color: rgba(253, 214, 146, 0.5);
+  border: 2px solid rgba(117, 79, 68, 1);
+  border-radius: 15px 50px;
+}
+.navbar-default .navbar-nav > li > a {
+  color:black;
+}
+.lighter {
+  background-color: rgba(236, 115, 87, 0.3);
+  border: 2px solid rgb(117, 79, 68);
+  border-radius: 15px 50px;
+  padding: 15px;
+}
+/*BUTTONS*/
+.delete-button {
+  float:right;
+  border-radius: 30px;
+  margin-right:10px;
+  margin-bottom: 10px;
+}
+.newAnswer-button, .update-button, .newQuestion-button {
+  border-radius: 30px;
+}
+.byAuthor {
+  font-size:18px;
+}
