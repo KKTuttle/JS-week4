@@ -1,4 +1,4 @@
-#  Ember JS Apps Independent Project: Mes_
+#  Ember JS Apps Independent Project: Message Board_
 
 #### _Message Board, August 19th, 2016_
 
