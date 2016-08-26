@@ -1,11 +1,15 @@
-@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+/*@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';*/
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+
+
 body {
   background-color: rgba(251, 255, 185, 1);
   color: black;
   font-size: 23px;
   z-index: 1;
   text-align: justify;
-  font-family: 'Baloo Bhaina', cursive;
+  /*font-family: 'Baloo Bhaina', cursive;*/
+  font-family: 'Indie Flower', cursive;
 }
 .jumbotron {
   background-color: rgba(236, 115, 87, 0.6);
@@ -38,7 +42,7 @@ body {
   margin-right:10px;
   margin-bottom: 10px;
 }
-.newAnswer-button, .update-button, .newQuestion-button {
+.newAnswer-button, .update-button, .newQuestion-button, .removeFromFavorite-button, .addToFavorite-button {
   border-radius: 30px;
 }
 .byAuthor {

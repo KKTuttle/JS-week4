@@ -1,6 +1,6 @@
 <div class="container">
   <h2> Question: "{{question.content}}"</h2>
-
+  <button class='addToFavorite-button' {{action 'addToFavorite' question}}>Add to Favorite List</button>
   <h4>Notes: {{question.notes}}</h4>
 
   <h3>Answers: </h3>
@@ -10,7 +10,7 @@
         {{#if answer.best}}
           🌟
         {{/if}}
-        {{answer.answerContent}}{{#link-to 'answer' answer.id}}Mode details{{/link-to}}
+        {{answer.answerContent}}{{#link-to 'answer' answer.id}}  Mode details{{/link-to}}
       </li>
     {{/each}}
   </ul>

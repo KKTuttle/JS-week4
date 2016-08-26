@@ -1,0 +1,5 @@
+<ol>
+  {{#each favoriteList.questions as |question|}}
+    <li>{{question.content}} <button class='removeFromFavorite-button' {{action 'removeFromFavorite' question}}>Remove</button></li>
+  {{/each}}
+</ol>
