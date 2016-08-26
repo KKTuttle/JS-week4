@@ -5,7 +5,7 @@
       <li>
         {{#link-to 'question' question.id}}{{question.content}}{{/link-to}} by {{question.author}}
         <br>
-        Answers:{{#link-to 'question' question.id}}{{question.answers.length}}{{/link-to}}
+        {{popularity-question question}}Answers:{{#link-to 'question' question.id}}{{question.answers.length}}{{/link-to}}
       </li>
     <!--Number of answers  -->
     {{/each}}

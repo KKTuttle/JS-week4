@@ -6,6 +6,7 @@ export default Ember.Component.extend({
       return this.get('model').filterBy('best', true).length;
     },
   }),
+  // manyAnswer: Ember.computed()
 
   actions: {
     best: function(answer) {
