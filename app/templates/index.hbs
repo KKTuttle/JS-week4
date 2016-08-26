@@ -2,7 +2,12 @@
   <h1>QUESTIONS</h1>
   <ul>
     {{#each model.questions as |question|}}
-    <li>{{#link-to 'question' question.id}}{{question.content}}{{/link-to}} by {{question.author}}</li>
+      <li>
+        {{#link-to 'question' question.id}}{{question.content}}{{/link-to}} by {{question.author}}
+        <br>
+        Answers:{{#link-to 'question' question.id}}{{question.answers.length}}{{/link-to}}
+      </li>
+    <!--Number of answers  -->
     {{/each}}
   </ul>
   {{new-question saveQuestion='saveQuestion'}}
