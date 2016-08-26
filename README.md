@@ -1,6 +1,6 @@
 #  Ember JS Apps Independent Project: Message Board_
 
-#### _Message Board, August 19th, 2016_
+#### _Message Board, August 26th, 2016_
 
 ## Description
 
@@ -19,13 +19,13 @@ _This web application allows user to display a question on the board and see ans
 
 ## Project Objectives
 
-* Application template contains header with link(s).
-* Data is stored in and retrieved from Ember Data models and Firebase.
-* Components are used to create display and behavior for your templates.
-* One-to-many relationship exists between Question and Answers.
-* Application works as expected.
+* The project contains at least one functioning computed property.
+* A service has been implemented successfully.
+* At least one custom helper is being used to format data.
+* Previous standards have been met.
+* The application works as expected.
 * Project is in a polished, portfolio-quality state.
-* Able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology.
+* You are able to discuss the flow of your code and the concepts behind it using correct terminology.
 
 ## Known Bugs
 _none_
@@ -82,7 +82,7 @@ Specify what it takes to deploy your app.
 
 _Contact by email: katka.karolcikova@gmail.com_
 * Github: kktuttle
-* https://github.com/KKTuttle/JS-week3
+* https://github.com/KKTuttle/JS-week4
 
 ## Technologies Used
 
