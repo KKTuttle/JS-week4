@@ -6,8 +6,12 @@
   <h3>Answers: </h3>
   <ul>
     {{#each sortedAnswers as |answer|}}
-      <li>{{answer.answerContent}} || on {{ answer.date}}{{#link-to 'answer' answer.id}}  More details{{/link-to}}</li>
-
+    <li {{action 'best' answer}}>
+      {{#if answer.best}}
+        🌟
+      {{/if}}
+      {{answer.answerContent}} || on {{moment-calendar answer.date}}{{#link-to 'answer' answer.id}}  More details{{/link-to}}
+    </li>
     {{/each}}
   </ul>
 

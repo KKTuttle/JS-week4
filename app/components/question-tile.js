@@ -1,16 +1,15 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+// model:Ember.computed({
+//   set:function(key, answers)
+// })
+
   favoriteList: Ember.inject.service(),
 
-  bestAnswer: Ember.computed('model.@each.best', {
-    get: function() {
-      return this.get('model').filterBy('best', true).length;
-    },
-  }),
-  sortBy: ['answer:asc'],
+  sortBy: ['date:asc'],
   sortedAnswers: Ember.computed.sort('question.answers', 'sortBy'),
-  // manyAnswer: Ember.computed()
+
 
   actions: {
     best: function(answer) {
