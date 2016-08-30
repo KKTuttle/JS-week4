@@ -6,12 +6,8 @@
   <h3>Answers: </h3>
   <ul>
     {{#each question.answers as |answer|}}
-      <li {{action 'best' answer}}>
-        {{#if answer.best}}
-          🌟
-        {{/if}}
-        {{answer.answerContent}}{{#link-to 'answer' answer.id}}  More details{{/link-to}}
-      </li>
+      <li>{{answer.answerContent}} || on {{ answer.date}}{{#link-to 'answer' answer.id}}  More details{{/link-to}}</li>
+
     {{/each}}
   </ul>
 
