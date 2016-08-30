@@ -15,7 +15,7 @@
 <hr>
   <h3>ALL ANSWERS</h3>
   <ul>
-    {{#each model.answers as |answer|}}
+    {{#each sortedAnswers as |answer|}}
       {{answer-tile answer=answer}}
     {{/each}}
   </ul>

@@ -8,6 +8,8 @@ export default Ember.Component.extend({
       return this.get('model').filterBy('best', true).length;
     },
   }),
+  sortBy: ['answer:desc'],
+  sortedAnswers: Ember.computed.sort('question.answers', 'sortBy'),
   // manyAnswer: Ember.computed()
 
   actions: {
