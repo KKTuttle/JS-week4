@@ -1,4 +1,4 @@
-#  Ember JS Apps Independent Project: Message Board_
+#  Ember JS Apps Independent Project: Message Board
 
 #### _Message Board, August 26th, 2016_
 
@@ -6,26 +6,21 @@
 
 _This web application allows user to display a question on the board and see answers of other users._
 
-## User Stories
 
-* Questions have the content of the question itself, an author and additional notes.
-* Answers have the content of the answer and the author.
-* Includes a header that appears on all pages containing the name of the site and a link to the home page.
-* Lists all questions on the homepage, with only the question and the name of the author showing.
-* Users are able to click on a question to view additional information.
-* Allows users to add and edit questions.
-* Allow users to add answers to a question.
-* Answers are added and viewed on the same page as the question they respond to.
+## Specifications
+#### User Stories(Ember Week 1):
+* _Questions should have the content of the question itself, an author and additional notes._
+* _Answers should have the content of the answer and the author._
+* _Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page._
+* _List all questions on the homepage, with only the question and the name of the author showing._
+* _Users should be able to click on a question to view additional information._
+* _Allow users to add and edit questions._
+* _Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to._
 
-## Project Objectives
-
-* The project contains at least one functioning computed property.
-* A service has been implemented successfully.
-* At least one custom helper is being used to format data.
-* Previous standards have been met.
-* The application works as expected.
-* Project is in a polished, portfolio-quality state.
-* You are able to discuss the flow of your code and the concepts behind it using correct terminology.
+#### User Stories(Ember Week 2):
+* _As a user, I'd like to know how many answers each question has.(Computed Property)_
+* _As a user, I'd like to see an icon next to questions without answers.(Helper)_
+* _As a user, I'd like to create a  list of my favorite questions to reference later.(Service)_
 
 ## Known Bugs
 _none_
